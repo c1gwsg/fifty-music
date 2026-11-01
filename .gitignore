@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# iOS & Native builds
+build_ipa/
+extracted_sample/
+*.ipa
+cloudflared.exe
+
+# Logs and runtime artifacts
+*.log
+tunnel_url.txt
+service.log
+server.log
+
+# System files
+.DS_Store
+Thumbs.db
